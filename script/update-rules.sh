@@ -178,6 +178,10 @@ cat allow-domains0.txt | sed '/^$/d' | grep -v "#" \
  |sed "s/^/@@||&/g" | sed "s/$/&^/g" | sort -n \
  | uniq | awk '!a[$0]++' > pre-allow1.txt & #将允许域名转换为ABP规则
 
+cat allow-domains0.txt | sed '/^$/d' | grep -v "#" \
+ |sed "s/^/0.0.0.0 &/g" | sort -n \
+ | uniq | awk '!a[$0]++' > pre-hostsallow.txt & #将允许域名转换为ABP规则
+
 cat *.txt | sed '/^$/d' \
  |grep -E "^\/[a-z]([a-z]|\.)*\.$" \
  |sort -u > l.txt &
@@ -224,8 +228,11 @@ cat tmp1-dns1.txt deadblock.txt deadblock.txt \
 cat .././mod/rules/*-rules.txt base-src-hosts.txt \
  | sed '/^$/d' |grep -E "^([0-9].*)|^((\|\|)[^\/\^]+\^$)" \
  |sed 's/||/0.0.0.0 /' | sed 's/\^//' \
- | sort -n | uniq > tmp-hosts.txt & #处理Hosts规则
+ | sort -n | uniq > tmp1-hosts1.txt & #处理Hosts规则
 wait
+cat tmp1-hosts1.txt pre-hostsallow.txt pre-hostsallow.txt \
+ | sort -n |uniq -u >tmp-hosts.txt #去重允许域名
+
 cat tmp-hosts.txt \
  | sed 's/0.0.0.0 //' \
  | sort -n | uniq > tmp-ad-domains.txt & #处理广告域名
