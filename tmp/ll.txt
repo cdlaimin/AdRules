@@ -91,6 +91,7 @@
 @@||wx.tenpay.com^
 @@||xmpp.disk.yandex.net^
 @@||yyfweb.postar.cn^
+|om^
 ||0--e.info^
 ||0-bitbucket.net.zooplus.de^
 ||0-cdn.net.zooplus.de^
