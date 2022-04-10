@@ -189,6 +189,9 @@ cat *.txt | sed '/^$/d' \
 cat dead-hosts* \
  | sed "s/^/||&/g" | sed "s/$/&^/g" > deadblock.txt &
 
+cat dead-hosts* \
+ | sed "s/^/0.0.0.0 &/g" > deadhosts.txt &
+
 # Start Merge and Duplicate Removal
 
 echo 开始合并
@@ -230,7 +233,7 @@ cat .././mod/rules/*-rules.txt base-src-hosts.txt \
  |sed 's/||/0.0.0.0 /' | sed 's/\^//' \
  | sort -n | uniq > tmp1-hosts1.txt & #处理Hosts规则
 wait
-cat tmp1-hosts1.txt pre-hostsallow.txt pre-hostsallow.txt \
+cat tmp1-hosts1.txt pre-hostsallow.txt pre-hostsallow.txt deadhosts.txt deadhosts.txt\
  | sort -n |uniq -u >tmp-hosts.txt #去重允许域名
 
 cat tmp-hosts.txt \
