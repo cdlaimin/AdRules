@@ -936,7 +936,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgaded/*
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgarethief.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -18775,6 +18775,7 @@
 @@||platform.twitter.com^$domain=klout.com|twimg.com|twitpic.com
 @@||platinmods.com/js/siropu/am/ads.min.js
 @@||platinmods.com/js/siropu/am/ads.min.js
+@@||plausible.io/js/plausible.js$script,domain=sammobile.com
 @@||play-old-pc-games.com/wp-content/plugins/agreeable-vacation/assets/js/advertisement.min.js
 @@||play-old-pc-games.com/wp-content/plugins/agreeable-vacation/assets/js/advertisement.min.js
 @@||play-tv.kakao.com/embed/player/image/$image
@@ -19011,6 +19012,7 @@
 @@||polfan.pl/app/vendor/fingerprint2.min.js
 @@||policelifes.de/js/ads.js
 @@||policelifes.de/js/ads.js
+@@||policy.app.cookieinformation.com/*/elkjop.no/nb.js$domain=elkjop.no
 @@||policy.app.cookieinformation.com/*/jysk.nl/nl.js$domain=jysk.nl
 @@||policy.app.cookieinformation.com/cookiesharingiframe.html$domain=jysk.nl
 @@||policy.app.cookieinformation.com^$domain=jysk.nl|skousen.dk|skousen.no|whiteaway.com|whiteaway.no|whiteaway.se
@@ -24332,7 +24334,7 @@
 @@||usercentrics.eu^$domain=hornbach.de
 @@||usercentrics.eu^$domain=justwatch.com
 @@||usercentrics.eu^$domain=webradio.de
-@@||usercentrics.eu^$script,subdocument,xmlhttprequest,domain=immowelt.de|verivox.de
+@@||usercentrics.eu^$script,subdocument,xmlhttprequest,domain=immowelt.de|verivox.de|wetter.com
 @@||userload.co/ad-*.js
 @@||userload.co/ad-*.js
 @@||userload.co/ad-banner-ads.js

@@ -1,7 +1,7 @@
 # AdguardTracking
 #
 # Converted from - https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
-# Last converted - Mon, 04 Apr 2022 18:32:17 +0100
+# Last converted - Sun, 10 Apr 2022 23:24:36 +0000
 #
 
 0.0.0.0 mon.snssdk.com
@@ -11,6 +11,13 @@
 0.0.0.0 ib.snssdk.com
 0.0.0.0 xlog.snssdk.com
 0.0.0.0 log.snssdk.com
+0.0.0.0 t.powerreviews.com
+0.0.0.0 gapp1.com
+0.0.0.0 stlog.d.dmkt-sp.jp
+0.0.0.0 dynatrace-managed.com
+0.0.0.0 cdn.reproio.com
+0.0.0.0 init.blackcrow.ai
+0.0.0.0 taplytics.com
 0.0.0.0 event-stream.spot.im
 0.0.0.0 1ee085aa-4c05-43a8-a4fe-fafedbedd062.xyz
 0.0.0.0 track.swaptrap.live
@@ -79,7 +86,6 @@
 0.0.0.0 track.91app.io
 0.0.0.0 track.stat.pet
 0.0.0.0 cdn.teleportapi.com
-0.0.0.0 api.rollbar.com
 0.0.0.0 fouanalytics.com
 0.0.0.0 analitits.com
 0.0.0.0 rtxpx-a.akamaihd.net
@@ -4548,6 +4554,8 @@
 0.0.0.0 jpaasne.e.shifen.com
 0.0.0.0 caclick.baidu.com
 0.0.0.0 wkclick.baidu.com
+0.0.0.0 a.popin.cc
+0.0.0.0 trace.popin.cc
 0.0.0.0 rlog.popin.cc
 0.0.0.0 log.popin.cc
 0.0.0.0 r.popin.cc
@@ -4604,6 +4612,13 @@
 0.0.0.0 collection-endpoint-prod.herokuapp.com
 0.0.0.0 collection-endpoint-staging.herokuapp.com
 0.0.0.0 telemetry.mozilla.org
+0.0.0.0 alxc.addlv.smt.docomo.ne.jp
+0.0.0.0 pa.pinpoll.com
+0.0.0.0 d2wu036mkcz52n.cloudfront.net
+0.0.0.0 ts.delfi.lt
+0.0.0.0 tracking.gvm.com.tw
+0.0.0.0 metrics.beyondwords.io
+0.0.0.0 launcher.spot.im
 0.0.0.0 api.data.ciceksepeti.com
 0.0.0.0 wlog.tmon.co.kr
 0.0.0.0 analytics.appservice.tech
@@ -18676,6 +18691,8 @@
 0.0.0.0 int.vlancaa.site
 0.0.0.0 int.vlancaa.fun
 0.0.0.0 tok.vaicore.xyz
+0.0.0.0 analytics.rayjump.com
+0.0.0.0 events.ifunny.co
 0.0.0.0 telemetry.navigatorapp.net
 0.0.0.0 pathfinder.analytics.komoot.net
 0.0.0.0 evt.mxplay.com
@@ -19020,7 +19037,6 @@
 0.0.0.0 alogs.umeng.com
 0.0.0.0 alogs.umengcloud.com
 0.0.0.0 stats.umsns.com
-0.0.0.0 analytics.rayjump.com
 0.0.0.0 iapp-cp.nuggad.net
 0.0.0.0 4seeresults.com
 0.0.0.0 abtest.mistat.xiaomi.com
@@ -19050,7 +19066,6 @@
 0.0.0.0 api.gameanalytics.com
 0.0.0.0 api.gimbal.com
 0.0.0.0 api.sec.miui.com
-0.0.0.0 api.taplytics.com
 0.0.0.0 appmetrica.yandex.net
 0.0.0.0 appmetrica.yandex.com
 0.0.0.0 ar.umeng.com
@@ -19100,7 +19115,6 @@
 0.0.0.0 nlog.droid4x.cn
 0.0.0.0 nrc.tapas.net
 0.0.0.0 oc.umeng.com
-0.0.0.0 ping.taplytics.com
 0.0.0.0 ping.xlmc.sandai.net
 0.0.0.0 pingma.qq.com
 0.0.0.0 prugskh.com

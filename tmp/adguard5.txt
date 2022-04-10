@@ -1,8 +1,8 @@
-! Checksum: HaWFp4/NH1SAIpiRv37gZg
+! Checksum: V5IuE/edYxC1LnMZ9eAiRQ
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.15.12
-! TimeUpdated: 2022-04-10T08:30:33+00:00
+! Version: 2.1.15.14
+! TimeUpdated: 2022-04-10T17:02:12+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -7814,7 +7814,7 @@ indy100.com#%#AG_onLoad(function(){if(!document.cookie.includes("euconsent-v2"))
 pacesuite.com#%#//scriptlet("remove-class", "cookies-requested", "body")
 kaufhold-bau.com#%#AG_onLoad(() => {if (!document.cookie.includes('edithConsent')) { window.COOKIE?.acceptAll(); }});
 echa.europa.eu#%#//scriptlet('set-cookie', 'disclaimer', 'true')
-hummelsport.se,hummel.pl,hummel.co.uk,hummel.fr,hummel.dk,hummelsport.de,hummel.net#%#//scriptlet('set-cookie', 'CookieInformationConsent', '1')
+elkjop.no,hummelsport.se,hummel.pl,hummel.co.uk,hummel.fr,hummel.dk,hummelsport.de,hummel.net#%#//scriptlet('set-cookie', 'CookieInformationConsent', '1')
 fega-schmitt.de#%#//scriptlet('set-cookie', 'cookieWarningSeen', 'true')
 wikia.org,gamepedia.com,fandom.com#%#document.cookie = "tracking-opt-in-status=rejected";
 ~www.expo-ip.com,expo-ip.com#%#//scriptlet('set-cookie', 'cookies_dialog', 'true')
@@ -8200,6 +8200,8 @@ m.timesofindia.com,m-timesofindia-com.cdn.ampproject.org$$amp-consent
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=cc.com|3sat.de|zdf.de|costco.com|giantbomb.com|glovoapp.com|rte.ie|digitaltrends.com|spiele.bild.de|spiele.stern.de|vanityfair.com|saarbruecker-zeitung.de|olympics.com|dziendobry.tvn.pl|bergfreunde.de|oe24.at|epicgames.com|toteraz.pl|natgeotv.com|midomi.com|volksfreund.de|kawasaki.com|foxchannels.com.tr|ga.de|shop.mango.com|kralmuzik.com.tr|westernunion.com|roastmarket.de|new.cappex.com|vimeo.com|heute.at|ntv.com.tr|wargaming.net|metacritic.com|gq-magazine.co.uk|viafree.dk|viafree.fi|viafree.no|viafree.se|glamour.de|cbsnews.com|worldoftanks.ru|vg247.com|newyorker.com|games.miamiherald.com|eurogamer.es|eurogamer.de|bet.com|ikonpass.com|mcdelivery.de|id.trimble.com|skateboarding.transworld.net|newegg.com|docs.vmware.com|udemy.com
 !+ PLATFORM(windows, mac, android)
 @@||geolocation.onetrust.com/cookieconsentpub/*/geo/location
+elkjop.no#@##CookieConsent
+@@||policy.app.cookieinformation.com/*/elkjop.no/nb.js$domain=elkjop.no
 @@||policy.cookieinformation.com/uc.js$domain=jysk.nl
 @@||policy.app.cookieinformation.com/cookiesharingiframe.html$domain=jysk.nl
 @@||policy.app.cookieinformation.com/*/jysk.nl/nl.js$domain=jysk.nl
@@ -9132,6 +9134,8 @@ tagline.ru##.b-block--dashed
 ##amp-app-banner
 ###smartbanner.ios
 ###smartbanner.windows
+spacemarket.com##div[class^="AppInstallBannerPresenter__StyledBannerContainer"]
+nipponrentacar.co.jp##.appArea
 mc.163.com##.down-box
 cookpad.com##.appinstall
 weathernews.jp###link_banner > ul.small > li.web
@@ -10108,6 +10112,7 @@ smallpdf.com##body > div#app > div[class]:has(> div > div > img[alt="Chrome"])
 ||form.typeform.com^$domain=theoryandpractice.ru
 theoryandpractice.ru##a[href^="https://form.typeform.com/"]
 !######### Subscription popups add to subscriptions.txt #########
+nipponrentacar.co.jp##.noticeArea
 techacademy.jp##.pum-overlay[data-popmake*="640px"]
 techcrunch.com##.announcement-banner[style="position: fixed;"]
 hindustantimes.com##.toolTip
