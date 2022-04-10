@@ -1,8 +1,8 @@
 ! Title: AdRules Ad Domains List
-! Checksum: YsxBhQ9N7c2m/Soxc610rg
+! Checksum: NHpZf7LOzPga8EclZbDuVw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
-! Expires: 8 Hours! Version: 2022-04-10 23:20:07（北京时间） 
+! Expires: 8 Hours! Version: 2022-04-11 00:17:09（北京时间） 
 ! Total count: 116399
 0-bitbucket.net.zooplus.de
 0-cdn.net.zooplus.de
