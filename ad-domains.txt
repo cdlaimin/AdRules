@@ -1,9 +1,9 @@
 ! Title: AdRules Ad Domains List
-! Checksum: MJp1O4y2h8CTBHWyPmX+3g
+! Checksum: I0uVoEvrnFXypJcKRAaoRA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
-! Expires: 8 Hours! Version: 2022-04-11 07:30:43（北京时间） 
-! Total count: 119681
+! Expires: 8 Hours! Version: 2022-04-11 08:58:45（北京时间） 
+! Total count: 119680
 &aab=
 0-bitbucket.net.zooplus.de
 0-cdn.net.zooplus.de
@@ -73144,7 +73144,6 @@ novostimira.biz
 novostisporta.info
 novoteka.ru
 novunu.football-plyus.net
-novunu.football-plyus.netk
 novwolf.com
 now.cummins.com
 now.pearsonschool.com

@@ -11809,6 +11809,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /cdcVanity?
 /cdn-cgi/apps/body/*$script,~third-party
 /cdn-cgi/apps/head/*$script,~third-party
+/cdn-cgi/beacon/*
 /cdn-cgi/bm/cv/*
 /cdn-cgi/pe/bag2?*.adm.cnzz.
 /cdn-cgi/pe/bag2?*.overture.com
@@ -30168,7 +30169,6 @@ gzmama.com###zone_top_fullcolumn
 h5.17k.com#$#body { overflow: visible!important; }
 h5.17k.com#$#html { overflow: visible!important; }
 h5.adshell.net##+js(window.open-defuser)
-h="980"][height="80"]
 haaretz.co.il##+js(addEventListener-defuser, load, hblocked?returnTo)
 haaretz.co.il#@#div[class*="addBlocker"]
 haaretz.com##+js(addEventListener-defuser, load, hblocked?returnTo)
@@ -73941,6 +73941,7 @@ zznews.cn##.ad:not([style])
 ||roilsnadirink.com^
 ||roiservice.com^$third-party
 ||roispy.com^$third-party
+||roistat.com^$third-party
 ||roistat.com^*/addVisit?
 ||roitesting.com^$third-party
 ||rokitokijoki.com^

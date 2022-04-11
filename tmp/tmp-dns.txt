@@ -16867,6 +16867,7 @@
 ||aniview.com.edgekey.net^
 ||aniview.com^
 ||anizablevetor.pro^
+||ankexper.fun^
 ||ankieta-online.pl^
 ||ankingwit.one^
 ||anklets.shengen.ru^
@@ -29835,6 +29836,7 @@
 ||cmp.tech426.com^
 ||cmp.tek.no^
 ||cmp.telerama.fr^
+||cmp.tori.fi^
 ||cmp.trouw.nl^
 ||cmp.tvspielfilm.de^
 ||cmp.uniconsent.com^
@@ -70445,7 +70447,6 @@
 ||novostisporta.info^
 ||novoteka.ru^
 ||novunu.football-plyus.net^
-||novunu.football-plyus.netk^
 ||novwolf.com^
 ||now.cummins.com^
 ||now.pearsonschool.com^

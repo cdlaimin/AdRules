@@ -1,8 +1,8 @@
-! Checksum: wli75pV/8MgFzs76of73Yg
+! Checksum: 2bplcwqOJaMZJrhHbb8lhQ
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.2.25.17
-! TimeUpdated: 2022-04-10T22:31:14+00:00
+! Version: 2.2.25.19
+! TimeUpdated: 2022-04-11T00:31:15+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -21195,6 +21195,7 @@ tf2r.com#@#.adverts
 ||338f4d497f.com^
 ||33ceaea337.cfd^
 ||341073be6e9db7d2.com^
+||396f4a512a.com^
 ||39bace7344.com^
 ||3a57c13de7.com^
 ||3i1cx7b9nupt.com^
@@ -21251,6 +21252,7 @@ tf2r.com#@#.adverts
 ||8jay04c4q7te.com^
 ||90cd7fb7ca.com^
 ||941588c880.com^
+||9af7e8a8cc.com^
 ||9cdce9983d.com^
 ||9eb10b7a3d04a.com^
 ||9f5c4f7827.com^
@@ -21603,6 +21605,7 @@ tf2r.com#@#.adverts
 ||angularconstitution.com^
 ||angusmemor.info^
 ||anightsregalia.cam^
+||ankexper.fun^
 ||anncmq.com^
 ||annesuspense.com^
 ||anonima.to^
@@ -21797,6 +21800,7 @@ tf2r.com#@#.adverts
 ||batwaxwok.site^
 ||baufaich.com^
 ||baywednesday.com^
+||bbaannrr11.com^
 ||bbocajxn.com^
 ||bckcdquvbscu.com^
 ||bclheggx.com^
@@ -22639,6 +22643,7 @@ tf2r.com#@#.adverts
 ||ducubchooa.com^
 ||dudslubesviol.com^
 ||duellosheliced.com^
+||duf1ql28oaxcm3x6baf7wxvo6n29hrozqxbd13emc3na96i64j.xyz^
 ||dukirliaon.com^
 ||dumbpop.com^
 ||duringsiam.com^
@@ -26190,6 +26195,7 @@ tf2r.com#@#.adverts
 ||vpvbojamkoxo.com^
 ||vpvbojamkoxo.top^
 ||vqnqrs53.com^
+||vqnqrs54.com^
 ||vrsshsdaa.com^
 ||vrtzads.com^
 ||vs23drop.com^
@@ -27158,6 +27164,7 @@ tf2r.com#@#.adverts
 ||syrsple2se8nyu09.com^$popup
 ||top-performance.top^$popup
 ||totlnkcl.com^$popup
+||trafficlide.com^$popup
 ||trlxcf05.com^$popup
 ||turnhub.net^$popup
 ||twinrdsrv.com^$popup
@@ -27887,6 +27894,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id​|adblockstreamtap
 ||awrfds3.pornpapa.com^
 ||babeshows.co.uk^*banner
 ||bellesa.co/api/rest/v1/campaigns?
+||biqle.org/swp.js
 ||bravoteens.com/ta/
 ||bravotube.net/cc/
 ||bravotube.net/js/clickback.js
@@ -29572,6 +29580,7 @@ drtuber.com,thisvid.com,vivatube.com##.spots
 rat.xxx##.spots-title
 sexvid.xxx##.spots_field
 definebabe.com##.subheader
+hclips.com##.suggestions
 pornmd.com##.suggestions-box
 18porn.sex,4kporn.xxx,bigtitslust.com,fpo.xxx,freeporn8.com,fuqer.com,gayck.com,hentai-moon.com,heroero.com,intporn.com,japaneseporn.xxx,mrdeepfakes.com,pornchimp.com,porndr.com,rare-videos.net,sortporn.com,xcavy.com,xgroovy.com,xxxshake.com##.table
 sxyprn.com##.tbd

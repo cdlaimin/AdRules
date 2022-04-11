@@ -6,7 +6,7 @@
 #  Title: oisd basic     
 #  Syntax: hosts     
 #  Entries: 64520  
-#  TimeUpdated: 10 Apr 2022 22:06 UTC         
+#  TimeUpdated: 10 Apr 2022 23:36 UTC         
 #  Maintainer: sjhgvr
 #  Expires: 1 day (update frequency)
 #  Homepage: https://oisd.nl
