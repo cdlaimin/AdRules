@@ -735,7 +735,6 @@
 /dlfeatads.
 /dltrack.
 /dmpmetrics.
-/dnsads.
 /doctracking.
 /domanalytics.
 /domcount.

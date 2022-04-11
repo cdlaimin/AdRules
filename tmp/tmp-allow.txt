@@ -936,6 +936,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgom^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -20435,7 +20436,6 @@
 @@||samehadaku.tv/wp-content/themes/*/js/advertisement.js
 @@||samehadaku.tv/wp-content/themes/*/js/advertisement.js
 @@||samfw.com^$ghide
-@@||sammobile.com/wp-content/themes/sammobile-6/assets/js/newrelic.js$~third-party
 @@||sammyboy.com/threads/advertisement$xmlhttprequest
 @@||sammyboy.com/threads/advertisement$xmlhttprequest
 @@||samplefan.com/img/ad/$image

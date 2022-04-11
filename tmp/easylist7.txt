@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202204100249
+! Version: 202204110219
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 25866
+! Lenth = 25879
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###Layeraa1
@@ -3255,6 +3255,8 @@ $websocket,domain=5nj.com|cechi8.com
 51cto.com#@#.addarea
 51cto.com,chinaacc.com,yidianzixun.com##.banner
 51dll.com,fulisuo.com,papa1024.com###aa
+51live.com###adquality
+51live.com###waterMark
 51nb.com###diynavtop + .t_rown[cellpadding="5"]
 51nongyao.net###reportPop
 51nongyao.net##.sectionBanner
@@ -7866,6 +7868,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.opr-xmas-game-con
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.res_top_banner
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[data-click*="\"rsv_srcid\":\"10090\""]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="game-page-platform"]
+ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="game-page-romance"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="right_chris_prize_list"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="right_game_recommend"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="right_timeliness2"]
@@ -10820,11 +10823,12 @@ weibo.com##div[ad-data]
 weibo.com##div[class^="HotTopic_doticon_"] + div[class^="HotTopic_tit_"]
 weibo.com##div[feedtype="ad"]
 weibo.com#?#.card-content > ul > li:-abp-has(> p > .icon-txt-recommend)
+weibo.com#?#.card-content > ul > li:-abp-has(>a[action-type="realtimehot_ad"])
 weibo.com#?#.card-wrap:-abp-has(> .card-film > .card-head > .title:-abp-contains(广告))
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(.wbpro-ad-tag:-abp-contains(广告))
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(div[class^="head-info_authtag_"]>img[src^="data"])
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(img[class^="head-info_authicon_"][src^="data"])
-weibo.com#?#.wbpro-side-panel:-abp-has(.wbpro-icon-search-tp4:-abp-contains(商))
+weibo.com#?#.wbpro-side-panel:-abp-has(span[class^="wbpro-icon-search"]:-abp-contains(商))
 weibo.com#?#tr:-abp-has(> .td-03 > .icon-txt-recommend)
 weihemenye.com###popup_bottom
 weihemenye.com#$##player_ad_div { display: none!important; }
@@ -11969,6 +11973,7 @@ zznews.cn##.ad:not([style])
 ||146.148.85.61^
 ||1494.top^
 ||14bobo.com/js/
+||150075.com^
 ||1503.net/code/
 ||154.196.143.171^
 ||156.232.37.2^
@@ -15001,6 +15006,7 @@ zznews.cn##.ad:not([style])
 ||caiyifz.com^$third-party
 ||caiyugang.com^
 ||calculated.cn^
+||calistabeverly.com^
 ||calvfk.cn^
 ||camspic.com/imguang/*.gif
 ||canalandco.com^
@@ -15026,6 +15032,7 @@ zznews.cn##.ad:not([style])
 ||carexpert.com.tw/wp-content/uploads/*800x90.
 ||carlseb.xyz^
 ||carnoc.com/noticejs/
+||carolinebeverly.com^
 ||carset.vip^
 ||carstat.bitauto.com^
 ||cartoon18.com/images/friend/
@@ -16030,6 +16037,7 @@ zznews.cn##.ad:not([style])
 ||djy518.com^
 ||djymht.cn^
 ||djzwrfi.cn^
+||dk2323dk.xyz^
 ||dkifl.com^
 ||dkjdnq.cn^
 ||dl12349.net^
@@ -20649,6 +20657,7 @@ zznews.cn##.ad:not([style])
 ||netease.com/fz/interface/frontend/fz.do?pos=tongyong-
 ||netease.com/house-public/articleyunyans.js
 ||netease.com^*bobologo
+||netkantu.com^
 ||netshare.ltd^
 ||neudata.cloud^
 ||neuralstemcell.com.cn/img/js.js
@@ -20826,6 +20835,7 @@ zznews.cn##.ad:not([style])
 ||ntjanyc.cn^
 ||ntppyc.cn^
 ||ntpr.xyz^
+||ntwaafv.cn^
 ||ntzfly.cn^
 ||nuanqipian.pw^
 ||nulltm.com/adv.js
@@ -21279,6 +21289,7 @@ zznews.cn##.ad:not([style])
 ||pofooz.cn^
 ||pokcykb.cn^
 ||poke88.com^
+||pokeryun.site^
 ||polkoa.com^
 ||pop.wioau.com^$third-party
 ||pop800.com^$third-party
@@ -22053,6 +22064,7 @@ zznews.cn##.ad:not([style])
 ||scenepass.com^
 ||scfatao.com^
 ||schicksalnvi.cn^
+||schlaftabletten.cn^
 ||scibook.cn/tuiguang.
 ||sciencenet.cn/field/js/news.
 ||sciencenet.cn/html/js/n
@@ -23235,6 +23247,7 @@ zznews.cn##.ad:not([style])
 ||tpd4.cn^
 ||tpe163.com^
 ||tpool.cn^
+||tptoon.com/skin/js/footkk.
 ||tq.cn/floatcard?
 ||tq121.com.cn/j/ad/
 ||tqlyjz.cn^

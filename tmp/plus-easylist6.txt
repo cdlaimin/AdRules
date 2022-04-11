@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202204100249
+! Version: 202204110219
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 41065
+! Lenth = 41066
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -1020,6 +1020,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /ZagUser.js
 /\.com\/[-_0-9a-zA-Z]{4,}\/[-\/_0-9a-zA-Z]{30,}$/$script,~third-party,domain=gu-global.com|uniqlo.com
 /\/(public|resources|static|assets)\/([a-f0-9]){28,31}$/$script,xmlhttprequest,~third-party
+/^https:\/\/cdn\.jsdelivr\.net\/npm\/[a-z]{10}@latest\/dist\/script\.min\.js$/$domain=tgd.kr|loawa.com
 /^https?:\/\/(.+?\.)?hardware\.info\/js\/[a-z]{1,}\/[0-9]{4,}\.js/$domain=hardware.info
 /^https?:\/\/fdts\.ebay-kleinanzeigen\.de\/[a-z0-9]{13,18}\.js\?/$script,domain=ebay-kleinanzeigen.de
 /^https?:\/\/js.*\/t\/[0-9]{3}\/[0-9]{3}\/[a-z0-9]{7,8}\.js/$script,third-party
@@ -1897,6 +1898,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /cdcVanity?
 /cdn-cgi/apps/body/*$script,~third-party
 /cdn-cgi/apps/head/*$script,~third-party
+/cdn-cgi/beacon/*
 /cdn-cgi/bm/cv/*
 /cdn-cgi/bm/cv/*$script
 /cdn-cgi/pe/bag2?*.google-analytics.com
@@ -8122,6 +8124,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||pladform.ru/player$subdocument
 @@||planetazdorovo.ru/pics/transparent_pixel.png$image,~third-party
 @@||plantyn.com/optiext/optiextension.dll$~third-party
+@@||plausible.io/js/plausible.js$script,domain=sammobile.com
 @@||play.google.com/log?$domain=meet.google.com
 @@||play.google.com/log?format=json$domain=news.google.com
 @@||playcanvas.com.*/keen.min.js
@@ -8248,7 +8251,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||s79.research.de.com/bb-mx/prime$domain=joyn.de
 @@||sahibinden.com/assets/analytics*.js$script
 @@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
-@@||sammobile.com/wp-content/themes/sammobile-6/assets/js/newrelic.js$~third-party
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
 @@||savjee.be/uploads/2020-10-27-effect-adblockers-on-google-analytics-vs-plausible/$~third-party
@@ -14812,7 +14814,6 @@ znak.com##.relap
 ||clkmein.com/bundles/smeweb/img/tracking
 ||clkstat.china.cn^
 ||clktrk.display.io^
-||cllctr.roistat.com^
 ||clnbze.dzienniklodzki.pl^
 ||clnbze.dziennikzachodni.pl^
 ||clnbze.expressilustrowany.pl^
@@ -15196,7 +15197,6 @@ znak.com##.relap
 ||collector.puhutv.com^
 ||collector.retailcrm.pro^$third-party
 ||collector.rn.de^
-||collector.roistat.com^
 ||collector.roistat.com^$third-party
 ||collector.schibsted.io^
 ||collector.shopstream.co^
@@ -16630,6 +16630,7 @@ znak.com##.relap
 ||dawanda.com/uo/trck.gif
 ||dawin.tv^$third-party
 ||dax.yle.fi/yya/event
+||daxab.com/cdn-cgi/beacon/
 ||daxab.com/logger/
 ||daxab.com/logger^
 ||daylogs.com/counter/
@@ -16809,6 +16810,7 @@ znak.com##.relap
 ||dejavu.mlapps.com^$third-party
 ||dejure.org/cgi-bin/sitzung.fcgi?
 ||dek-d.com^*/analytic.js
+||delamer.jp/sites/cremedelamer2/themes/cremedelamer2_base/js/shared/analytics.js
 ||delegatediscussion.com^$third-party
 ||delfi.lv/t/p.js
 ||delfi.lv^$cookie=dcid
@@ -22502,7 +22504,6 @@ znak.com##.relap
 ||jsdelivr.net/gh/sensitiveio/sbtracker@master/
 ||jsdelivr.net/npm/datbpzjvws@latest/dist/script.min.js$domain=ygosu.com
 ||jsdelivr.net/npm/keen-tracking@*/keen-tracking.min.js
-||jsdelivr.net/npm/mrnndputqc@latest/dist/script.min.js
 ||jsdelivr.net/snowplow/
 ||jsdelivr.net^*/fp.min.js
 ||jsecoin.com^$third-party
@@ -29829,7 +29830,7 @@ znak.com##.relap
 ||roinjg.mkluzkoviny.cz^
 ||roiservice.com^$third-party
 ||roispy.com^$third-party
-||roistat.com^*/addVisit?
+||roistat.com^$third-party
 ||roitesting.com^$third-party
 ||rolite.eu/wp-content/*/js/cntr.js
 ||rollbar.com^$third-party
